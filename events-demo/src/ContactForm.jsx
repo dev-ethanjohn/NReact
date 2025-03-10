@@ -27,6 +27,8 @@ function ContactForm() {
   function handleSubmit(e) {
     e.preventDefault();
     // console.log(e);
+
+    // https://developer.mozilla.org/en-US/docs/Web/API/FormData
     const fd = new FormData(e.target);
     // console.log(fd);
 
