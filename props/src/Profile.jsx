@@ -1,7 +1,6 @@
 function Profile({ firstN, lastN }) {
   return (
     <div>
-      <img src="" alt="" />
       <h3>
         Name: {firstN} {lastN}
       </h3>
